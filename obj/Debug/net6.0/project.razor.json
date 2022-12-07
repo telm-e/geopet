@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "geopet",
+  "RootNamespace": "geo_pet",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
