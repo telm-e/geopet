@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace geo_pet.Models
 {
@@ -13,6 +14,7 @@ namespace geo_pet.Models
         public string Phone { get; set; }
         public string Cep { get; set; }
         public string Password { get; set; }
+        [JsonIgnore]
         public ICollection<Pet>? Pets { get; set; }
     }
 

@@ -38,7 +38,14 @@ namespace geo_pet.Repository
 
         public UserDTO AddUser(User user)
         {
-            _context.Users.Add(user);
+            var userAdd = new User {
+                Name = user.Name,
+                Email = user.Email,
+                Phone = user.Phone,
+                Cep = user.Cep,
+                Password = user.Password
+            };
+            _context.Users.Add(userAdd);
             _context.SaveChanges();
             return new UserDTO {
                 Name = user.Name,
@@ -51,6 +58,7 @@ namespace geo_pet.Repository
         public UserDTO UpdateUser(User user, int userId)
         {
             var myUser = _context.Users.Find(userId);
+            Console.WriteLine(myUser);
             if (myUser != null)
             {
                 myUser.Name = user.Name;
@@ -70,6 +78,7 @@ namespace geo_pet.Repository
         public void DeleteUser(int userId)
         {
             var user = _context.Users.Find(userId);
+            Console.WriteLine(user);
             if(user != null)
             {
                 _context.Users.Remove(user);
