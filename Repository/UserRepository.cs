@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace geo_pet.Repository
 {
-    public class GeoPetRepository : IGeoPetRepository
+    public class UserRepository : IUserReporitory
     {   
         protected readonly GeoPetContext _context;
-        public GeoPetRepository(GeoPetContext context)
+        public UserRepository(GeoPetContext context)
         {
             _context = context;
         }
