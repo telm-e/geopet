@@ -2,7 +2,7 @@ using geo_pet.Models;
 
 namespace geo_pet.Repository
 {
-    public interface IGeoPetRepository
+    public interface IUserRepository
     {
         IEnumerable<UserDTO> GetUsers();
         UserDTO GetUserById(int userId);

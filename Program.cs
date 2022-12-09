@@ -10,7 +10,7 @@ builder.Services.AddMvcCore();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<GeoPetContext>();
 builder.Services.AddScoped<IGeoPetContext, GeoPetContext>();
-builder.Services.AddScoped<IGeoPetRepository, GeoPetRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllersWithViews()

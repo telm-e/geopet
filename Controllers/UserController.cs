@@ -6,10 +6,10 @@ namespace geo_pet.Controllers
 {
     [ApiController]
     [Route("users")]
-    public class GeoPetController : Controller 
+    public class UserController : Controller 
     {
-        private readonly IGeoPetRepository _repository;
-        public GeoPetController(IGeoPetRepository repository)
+        private readonly IUserRepository _repository;
+        public UserController(IUserRepository repository)
         {
             _repository = repository;
         }
