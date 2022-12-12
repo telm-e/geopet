@@ -189,3 +189,4 @@
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/package-lock.json
 >>>>>>> general
 /home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/package-lock.json
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

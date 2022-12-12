@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using geo_pet.Repository;
 using geo_pet.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication;
+using System.Net;
 
 namespace geo_pet.Controllers
 {
@@ -19,12 +22,14 @@ namespace geo_pet.Controllers
 
         
         [HttpGet]
+        [Authorize]
         public IActionResult GetUsers()
         {
             return Ok(_repository.GetUsers());
         }
 
         [HttpGet("{userId}")]
+        [Authorize]
         public IActionResult GetUserById(int userId)
         {
             return Ok(_repository.GetUserById(userId));
@@ -44,12 +49,14 @@ namespace geo_pet.Controllers
         }
 
         [HttpPut("{userId}")]
+        [Authorize]
         public IActionResult Update([FromBody] User user, int userId)
         {
             return Ok(_repository.UpdateUser(user, userId));
         }
 
         [HttpDelete("{userId}")]
+        [Authorize]
         public IActionResult Delete(int userId)
         {
             _repository.DeleteUser(userId);
