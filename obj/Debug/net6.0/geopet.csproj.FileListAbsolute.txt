@@ -122,3 +122,4 @@
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/ref/geopet.dll
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/geopet.pdb
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/geopet.genruntimeconfig.cache
+/home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/package-lock.json

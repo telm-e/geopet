@@ -25,7 +25,7 @@ namespace geo_pet.Controllers
             return Ok(_repository.GetPets());
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetPetById(int PetId)
         {
             return Ok(_repository.GetPetById(PetId));
@@ -37,7 +37,7 @@ namespace geo_pet.Controllers
             return Created("", _repository.AddPet(pet));
         }
 
-        [HttpPut("PetId")]
+        [HttpPut("{petId}")]
         public IActionResult Update([FromBody] PetInsert pet, int petId)
         {
             var response = _repository.UpdatedPet(pet, petId);
@@ -45,7 +45,14 @@ namespace geo_pet.Controllers
             {
                 return NotFound("Pet Not Found");
             }
-            return Ok();
+            return Ok(response);
+        }
+
+        [HttpDelete("{petId}")]
+        public IActionResult DeletePet(int petId)
+        {
+            _repository.DeletePet(petId);
+            return Ok(new { message= "Removido com sucesso"});
         }
     }
 }
