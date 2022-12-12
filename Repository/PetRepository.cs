@@ -69,20 +69,23 @@ namespace geo_pet.Repository
         MyPet.Breed = pet.Breed;
         MyPet.Hash = pet.Hash;
         _context.SaveChanges();
+        var result = GetPetById(petId);
+        return result;
       }
-      var result = GetPetById(petId);
-      return result;
+      throw new ArgumentException("Pet Not Found");
     }
 
 
     public void DeletePet(int petId)
     {
       var pet = _context.Pets.Find(petId);
-            if(pet != null)
-            {
-                _context.Pets.Remove(pet);
-                _context.SaveChanges();
-            }
+      if (pet != null)
+      {
+        _context.Pets.Remove(pet);
+        _context.SaveChanges();
+      }
+      throw new ArgumentException("Pet Not Found");
+
     }
   }
 }
