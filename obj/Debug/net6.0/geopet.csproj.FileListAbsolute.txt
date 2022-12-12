@@ -192,3 +192,7 @@
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/RestClient.Net.dll
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/RestClient.Net.Abstractions.dll
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/Urls.dll
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/RestClient.Net.dll
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/RestClient.Net.Abstractions.dll
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/Urls.dll

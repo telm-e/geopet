@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using geo_pet.Models;
 using geo_pet.Repository;
 using geo_pet.services.interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace geo_pet.Controllers
@@ -20,43 +21,47 @@ namespace geo_pet.Controllers
       _repository = repository;
       _addressService = addressService;
     }
+        
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetAll()
+        {
+            return Ok(_repository.GetPets());
+        }
 
+        [HttpGet("{id}")]
+        [Authorize]
+        public IActionResult GetPetById(int PetId)
+        {
+            return Ok(_repository.GetPetById(PetId));
+        }
 
-    [HttpGet]
-    public IActionResult GetAll()
-    {
-      return Ok(_repository.GetPets());
-    }
+        [HttpPost]
+        [Authorize]
+        public IActionResult AddPet([FromBody] PetInsert pet)
+        {
+            return Created("", _repository.AddPet(pet));
+        }
 
-    [HttpGet("{id}")]
-    public IActionResult GetPetById(int PetId)
-    {
-      return Ok(_repository.GetPetById(PetId));
-    }
+        [HttpPut("{petId}")]
+        [Authorize]
+        public IActionResult Update([FromBody] PetInsert pet, int petId)
+        {
+            var response = _repository.UpdatedPet(pet, petId);
+            if(response == null)
+            {
+                return NotFound("Pet Not Found");
+            }
+            return Ok(response);
+        }
 
-    [HttpPost]
-    public IActionResult AddPet([FromBody] PetInsert pet)
-    {
-      return Created("", _repository.AddPet(pet));
-    }
-
-    [HttpPut("{petId}")]
-    public IActionResult Update([FromBody] PetInsert pet, int petId)
-    {
-      var response = _repository.UpdatedPet(pet, petId);
-      if (response == null)
-      {
-        return NotFound("Pet Not Found");
-      }
-      return Ok(response);
-    }
-
-    [HttpDelete("{petId}")]
-    public IActionResult DeletePet(int petId)
-    {
-      _repository.DeletePet(petId);
-      return Ok(new { message = "Removido com sucesso" });
-    }
+        [HttpDelete("{petId}")]
+        [Authorize]
+        public IActionResult DeletePet(int petId)
+        {
+            _repository.DeletePet(petId);
+            return Ok(new { message= "Removido com sucesso"});
+        }
 
     [HttpGet]
     [Route("address")]
