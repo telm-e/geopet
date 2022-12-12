@@ -9,9 +9,12 @@ namespace geo_pet.Controllers
     public class UserController : Controller 
     {
         private readonly IUserRepository _repository;
-        public UserController(IUserRepository repository)
+
+        private readonly ICepService _cepService;
+        public UserController(IUserRepository repository, ICepService cepService)
         {
             _repository = repository;
+            _cepService = cepService;
         }
 
         
@@ -28,9 +31,16 @@ namespace geo_pet.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add([FromBody] User user)
+        public async Task<IActionResult> Add([FromBody] User user)
         {
-            return Created("",_repository.AddUser(user));
+            var cep = user.Cep;
+            var validateCep = await _cepService.GetCep(cep);
+            if (validateCep.ToString().Contains("erro"))
+            {
+                return BadRequest("Cep inválido, digite um cep válido e que contenha 8 digitos");
+            }
+
+            return Created("",_repository.AddUser(user));      
         }
 
         [HttpPut("{userId}")]
