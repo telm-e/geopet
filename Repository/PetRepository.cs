@@ -54,8 +54,7 @@ namespace geo_pet.Repository
       _context.Pets.Add(newPet);
       _context.SaveChanges();
 
-      var result = GetPetById(newPet.PetId);
-      return result;
+      return GetPetById(newPet.PetId);
     }
 
     public object UpdatedPet(PetInsert pet, int petId)
@@ -79,12 +78,13 @@ namespace geo_pet.Repository
     public void DeletePet(int petId)
     {
       var pet = _context.Pets.Find(petId);
-            if(pet != null)
-            {
-                _context.Pets.Remove(pet);
-                _context.SaveChanges();
-            }
+      if (pet != null)
+      {
+        _context.Pets.Remove(pet);
+        _context.SaveChanges();
+      }
       throw new ArgumentException("Pet Not Found");
+
     }
   }
 }

@@ -122,6 +122,7 @@
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/ref/geopet.dll
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/geopet.pdb
 /home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/obj/Debug/net6.0/geopet.genruntimeconfig.cache
+<<<<<<< HEAD
 /home/alvaro/projetos/geopet/bin/Debug/net6.0/appsettings.Development.json
 /home/alvaro/projetos/geopet/bin/Debug/net6.0/appsettings.json
 /home/alvaro/projetos/geopet/bin/Debug/net6.0/geopet
@@ -184,3 +185,7 @@
 /home/alvaro/projetos/geopet/obj/Debug/net6.0/ref/geopet.dll
 /home/alvaro/projetos/geopet/obj/Debug/net6.0/geopet.pdb
 /home/alvaro/projetos/geopet/obj/Debug/net6.0/geopet.genruntimeconfig.cache
+=======
+/home/jessica/jessicasantos/projetoFinalAcc/projetoXAcc/geopet/bin/Debug/net6.0/package-lock.json
+>>>>>>> general
+/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/package-lock.json
