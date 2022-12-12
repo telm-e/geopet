@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using geo_pet.Repository;
 using geo_pet.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication;
+using System.Net;
 
 namespace geo_pet.Controllers
 {
@@ -19,6 +22,7 @@ namespace geo_pet.Controllers
 
         
         [HttpGet]
+        [Authorize]
         public IActionResult GetUsers()
         {
             return Ok(_repository.GetUsers());

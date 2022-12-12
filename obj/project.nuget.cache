@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pVMmXTMZbm4k1E/4M7ex1UwOkkNCIfu7oXzI0g7Lk9S2FnAWBqxFf6phxxM83cSBIzpn2DrzOcR0TpIUNdQx4Q==",
+  "dgSpecHash": "kaEcyDf9cdglAvixErKViTU4GvuDHBi7luUAc4DGzdVSY4ZnBLkInt8O9XRQAC/7XGWrbwF5f/nlXMByAEFdjA==",
   "success": true,
   "projectFilePath": "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/home/telme/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "/home/telme/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/2.2.0/microsoft.aspnetcore.authentication.jwtbearer.2.2.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.aspnetcore.cryptography.internal/2.2.0/microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.aspnetcore.dataprotection/2.2.0/microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/2.2.0/microsoft.aspnetcore.dataprotection.abstractions.2.2.0.nupkg.sha512",
