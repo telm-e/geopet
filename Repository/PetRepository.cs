@@ -76,9 +76,15 @@ namespace geo_pet.Repository
     }
 
 
-    public void DeletePet(int id)
+    public void DeletePet(int petId)
     {
-      throw new NotImplementedException();
+      var pet = _context.Pets.Find(petId);
+            if(pet != null)
+            {
+                _context.Pets.Remove(pet);
+                _context.SaveChanges();
+            }
+      throw new ArgumentException("Pet Not Found");
     }
   }
 }
