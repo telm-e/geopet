@@ -13,6 +13,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "RestClient.Net": "5.1.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "System.Net.Http": "4.3.4"
         },
@@ -433,6 +434,31 @@
             "assetType": "runtime",
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "RestClient.Net/5.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "RestClient.Net.Abstractions": "5.1.0"
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "RestClient.Net.Abstractions/5.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "System.Collections.Immutable": "6.0.0",
+          "Urls": "1.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/RestClient.Net.Abstractions.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
           }
         }
       },
@@ -992,6 +1018,14 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "Urls/1.0.0": {
+        "runtime": {
+          "lib/net5.0/Urls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1350,6 +1384,20 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "RestClient.Net/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-blzKjnuE9Yho2+lUY/damDnF0seyoHfN2b0gG9AIXerrQwm8XawJO8ZT1Ha4rpjJ5pcAnzsR/6Q86+YgLUBFng==",
+      "path": "restclient.net/5.1.0",
+      "hashPath": "restclient.net.5.1.0.nupkg.sha512"
+    },
+    "RestClient.Net.Abstractions/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dpxIfurb46vElc0NvUK+xdlZEaZjmtY/T85xNXS4vAt0JiAoFRgO8rzJmwzhAHVqRvNjM6URtHquG4IxRH8DEA==",
+      "path": "restclient.net.abstractions/5.1.0",
+      "hashPath": "restclient.net.abstractions.5.1.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -1819,6 +1867,13 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Urls/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6DumPK5w7FqIMtj5c4zeGQxAE0IxCSSHhaLk6mo2hx16VuXzuoI3wBX8HorxxJfAjQxMtIBB2RuztEeio7IxMQ==",
+      "path": "urls/1.0.0",
+      "hashPath": "urls.1.0.0.nupkg.sha512"
     }
   }
 }

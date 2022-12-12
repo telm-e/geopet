@@ -1,4 +1,7 @@
-public interface ICepService
+namespace geo_pet.services.interfaces
 {
-  public Task<object> GetCep(string cep);
+  public interface ICepService
+  {
+    public Task<object> GetCep(string cep);
+  }
 }

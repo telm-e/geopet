@@ -4,21 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using geo_pet.Models;
 using geo_pet.Repository;
+using geo_pet.services.interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace geo_pet.Controllers
 {
-    [ApiController]
-    [Route("pets")]
-    public class PetController : ControllerBase
+  [ApiController]
+  [Route("pets")]
+  public class PetController : ControllerBase
+  {
+    private readonly IPetRepository _repository;
+    private readonly IAddressService _addressService;
+    public PetController(IPetRepository repository, IAddressService addressService)
     {
-        private readonly IPetRepository _repository;
-        public PetController(IPetRepository repository)
-        {
-            _repository = repository;
-        }
-
+      _repository = repository;
+      _addressService = addressService;
+    }
         
         [HttpGet]
         [Authorize]
@@ -60,5 +62,14 @@ namespace geo_pet.Controllers
             _repository.DeletePet(petId);
             return Ok(new { message= "Removido com sucesso"});
         }
+
+    [HttpGet]
+    [Route("address")]
+    public async Task<IActionResult> GetAddress( double lat, double lon)
+    {
+      var result = await _addressService.GetAddress(lat, lon);
+      if (result is false) return NotFound();
+      return Ok(result);
     }
+  }
 }

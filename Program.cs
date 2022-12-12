@@ -1,4 +1,6 @@
 using geo_pet.Repository;
+using geo_pet.services;
+using geo_pet.services.interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text.Json.Serialization;
 using Microsoft.IdentityModel.Tokens;
@@ -11,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient<ICepService, CepService>();
+builder.Services.AddHttpClient<IAddressService, AddressService>();
 builder.Services.AddControllers();
 builder.Services.AddMvcCore();
 builder.Services.AddControllersWithViews();

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using geo_pet.Repository;
 using geo_pet.Models;
+using geo_pet.services.interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using System.Net;
@@ -12,7 +13,6 @@ namespace geo_pet.Controllers
     public class UserController : Controller 
     {
         private readonly IUserRepository _repository;
-
         private readonly ICepService _cepService;
         public UserController(IUserRepository repository, ICepService cepService)
         {

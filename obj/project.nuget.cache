@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kaEcyDf9cdglAvixErKViTU4GvuDHBi7luUAc4DGzdVSY4ZnBLkInt8O9XRQAC/7XGWrbwF5f/nlXMByAEFdjA==",
+  "dgSpecHash": "48qDYx6JepHILollE1apaDbB7EDsbGbJZ8hC4IGt/3RUjvy5GHkQ8je0qI+QR1gyDNKRE3qX/rWi/sAwlMCeug==",
   "success": true,
   "projectFilePath": "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,8 @@
     "/home/telme/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/telme/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/home/telme/.nuget/packages/restclient.net/5.1.0/restclient.net.5.1.0.nupkg.sha512",
+    "/home/telme/.nuget/packages/restclient.net.abstractions/5.1.0/restclient.net.abstractions.5.1.0.nupkg.sha512",
     "/home/telme/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/telme/.nuget/packages/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "/home/telme/.nuget/packages/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
@@ -120,7 +122,15 @@
     "/home/telme/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
     "/home/telme/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/home/telme/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/home/telme/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
+    "/home/telme/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
+    "/home/telme/.nuget/packages/urls/1.0.0/urls.1.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache /home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/obj/project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
