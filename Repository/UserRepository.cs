@@ -14,12 +14,12 @@ namespace geo_pet.Repository
         {
             var users = _context.Users
                 .Select(x => new UserDTO{
-                    UserId = x.UserId,
                     Name = x.Name,
                     Email = x.Email,
                     Phone = x.Phone,
                     Cep = x.Cep,
                 });
+
             return users;
         }
 
@@ -27,7 +27,6 @@ namespace geo_pet.Repository
         {
             var user = _context.Users.Where(user => user.UserId == userId)
                 .Select(x => new UserDTO{
-                    UserId = x.UserId,
                     Name = x.Name,
                     Email = x.Email,
                     Phone = x.Phone,

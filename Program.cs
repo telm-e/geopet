@@ -5,6 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<ICepService, CepService>();
 builder.Services.AddControllers();
 builder.Services.AddMvcCore();
 builder.Services.AddControllersWithViews();
