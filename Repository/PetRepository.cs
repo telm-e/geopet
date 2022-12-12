@@ -54,8 +54,7 @@ namespace geo_pet.Repository
       _context.Pets.Add(newPet);
       _context.SaveChanges();
 
-      var result = GetPetById(newPet.PetId);
-      return result;
+      return GetPetById(newPet.PetId);
     }
 
     public object UpdatedPet(PetInsert pet, int petId)
