@@ -1,23 +1,28 @@
-public class CepService : ICepService
+using geo_pet.services.interfaces;
+
+namespace geo_pet.services
 {
-  private readonly HttpClient _client;
-  private const string _baseUrl = "https://viacep.com.br/ws/";
-
-  public CepService(HttpClient client)
+  public class CepService : ICepService
   {
-    _client = client;
-    _client.BaseAddress = new Uri(_baseUrl);
-  }
+    private readonly HttpClient _client;
+    private const string _baseUrl = "https://viacep.com.br/ws/";
 
-  public async Task<object> GetCep(string cep)
-{
-  var response = await _client.GetAsync($"{cep}/json/");
-  if (!response.IsSuccessStatusCode)
-  {
-    return default(Object);
-  }
+    public CepService(HttpClient client)
+    {
+      _client = client;
+      _client.BaseAddress = new Uri(_baseUrl);
+    }
 
-  var result = await response.Content.ReadFromJsonAsync<object>();
-  return result;
-}
+    public async Task<object> GetCep(string cep)
+    {
+      var response = await _client.GetAsync($"{cep}/json/");
+      if (!response.IsSuccessStatusCode)
+      {
+        return default(Object);
+      }
+
+      var result = await response.Content.ReadFromJsonAsync<object>();
+      return result;
+    }
+  }
 }

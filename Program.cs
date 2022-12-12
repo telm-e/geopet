@@ -1,4 +1,6 @@
 using geo_pet.Repository;
+using geo_pet.services;
+using geo_pet.services.interfaces;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpClient();
 builder.Services.AddHttpClient<ICepService, CepService>();
+builder.Services.AddHttpClient<IAddressService, AddressService>();
 builder.Services.AddControllers();
 builder.Services.AddMvcCore();
 builder.Services.AddControllersWithViews();
