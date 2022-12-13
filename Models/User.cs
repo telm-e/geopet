@@ -35,4 +35,10 @@ namespace geo_pet.Models
         public string Cep { get; set; }
         public string Password { get; set; }
     }
+
+    public class UserDTOqrcode
+    {
+        public int UserId { get; set; }
+        public string Src { get; set; }
+    }
 }

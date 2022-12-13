@@ -14,10 +14,12 @@ namespace geo_pet.Controllers
     {
         private readonly IUserRepository _repository;
         private readonly ICepService _cepService;
-        public UserController(IUserRepository repository, ICepService cepService)
+        private readonly IQRCodeService _qrcodeService;
+        public UserController(IUserRepository repository, ICepService cepService, IQRCodeService qRCodeService)
         {
             _repository = repository;
             _cepService = cepService;
+            _qrcodeService = qRCodeService;
         }
 
         
@@ -29,10 +31,15 @@ namespace geo_pet.Controllers
         }
 
         [HttpGet("{userId}")]
-        [Authorize]
         public IActionResult GetUserById(int userId)
         {
             return Ok(_repository.GetUserById(userId));
+        }
+
+        [HttpGet("{userId}/qr-code")]
+        public IActionResult GetQRCode(int userId)
+        {
+            return Ok(_qrcodeService.GetQRCode(userId));
         }
 
         [HttpPost]
