@@ -18,7 +18,7 @@ namespace geo_pet.Repository
       {
         PetId = x.PetId,
         Name = x.Name,
-        Age = x.Age,
+        Age = (DateTime.Now.Year - x.Birth.Year),
         Size = x.Size,
         Breed = x.Breed,
         Hash = x.Hash
@@ -34,7 +34,7 @@ namespace geo_pet.Repository
       {
         PetId = x.PetId,
         Name = x.Name,
-        Age = x.Age,
+        Age = (DateTime.Now.Year - x.Birth.Year),
         Size = x.Size,
         Breed = x.Breed,
         Hash = x.Hash
@@ -46,7 +46,7 @@ namespace geo_pet.Repository
       var newPet = new Pet
       {
         Name = pet.Name,
-        Age = pet.Age,
+        Birth = pet.Birth,
         Size = pet.Size,
         Breed = pet.Breed,
         Hash = pet.Hash,
@@ -63,7 +63,7 @@ namespace geo_pet.Repository
       if (MyPet != null)
       {
         MyPet.Name = pet.Name;
-        MyPet.Age = pet.Age;
+        MyPet.Birth = pet.Birth;
         MyPet.Size = pet.Size;
         MyPet.Breed = pet.Breed;
         MyPet.Hash = pet.Hash;
