@@ -24,7 +24,15 @@ namespace geo_pet.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Cep { get; set; }
-        public ICollection<Pet>? Pets { get; set; } = null!;
+        public ICollection<PetDTOUser>? Pets { get; set; } = null!;
+    }
+
+        public class UserDTOUpdate
+    {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Cep { get; set; }
     }
 
     public class UserDTOAdd

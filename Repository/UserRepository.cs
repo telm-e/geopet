@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 namespace geo_pet.Repository
 {
     public class UserRepository : IUserRepository
-    {   
+    {
         protected readonly GeoPetContext _context;
         public UserRepository(GeoPetContext context)
         {
@@ -13,11 +13,21 @@ namespace geo_pet.Repository
         public IEnumerable<UserDTO> GetUsers()
         {
             var users = _context.Users
-                .Select(x => new UserDTO{
+                .Select(x => new UserDTO
+                {
                     Name = x.Name,
                     Email = x.Email,
                     Phone = x.Phone,
                     Cep = x.Cep,
+                    Pets = x.Pets.Select(p => new PetDTOUser
+                    {
+                        PetId = p.PetId,
+                        Name = p.Name,
+                        Age = (DateTime.Now.Year - p.Birth.Year),
+                        Size = p.Size,
+                        Breed = p.Breed,
+                        Hash = p.Hash,
+                    }).ToList()
                 });
 
             return users;
@@ -26,18 +36,29 @@ namespace geo_pet.Repository
         public UserDTO GetUserById(int userId)
         {
             var user = _context.Users.Where(user => user.UserId == userId)
-                .Select(x => new UserDTO{
+                .Select(x => new UserDTO
+                {
                     Name = x.Name,
                     Email = x.Email,
                     Phone = x.Phone,
                     Cep = x.Cep,
-                    }).First();
+                    Pets = x.Pets.Select(p => new PetDTOUser
+                    {
+                        PetId = p.PetId,
+                        Name = p.Name,
+                        Age = (DateTime.Now.Year - p.Birth.Year),
+                        Size = p.Size,
+                        Breed = p.Breed,
+                        Hash = p.Hash,
+                    }).ToList()
+                }).First();
             return user;
         }
 
-        public UserDTO AddUser(User user)
+        public UserDTOUpdate AddUser(UserDTOAdd user)
         {
-            var userAdd = new User {
+            var userAdd = new User
+            {
                 Name = user.Name,
                 Email = user.Email,
                 Phone = user.Phone,
@@ -46,7 +67,8 @@ namespace geo_pet.Repository
             };
             _context.Users.Add(userAdd);
             _context.SaveChanges();
-            return new UserDTO {
+            return new UserDTOUpdate
+            {
                 Name = user.Name,
                 Email = user.Email,
                 Phone = user.Phone,
@@ -54,7 +76,7 @@ namespace geo_pet.Repository
             };
         }
 
-        public UserDTO UpdateUser(User user, int userId)
+        public UserDTOUpdate UpdateUser(User user, int userId)
         {
             var myUser = _context.Users.Find(userId);
             Console.WriteLine(myUser);
@@ -66,24 +88,29 @@ namespace geo_pet.Repository
                 myUser.Cep = user.Cep;
                 _context.SaveChanges();
             }
-            return new UserDTO {
+            return new UserDTOUpdate
+            {
                 Name = user.Name,
                 Email = user.Email,
                 Phone = user.Phone,
                 Cep = user.Cep,
             };
         }
-
         public void DeleteUser(int userId)
         {
-            var user = _context.Users.Find(userId);
-            Console.WriteLine(user);
-            if(user != null)
+            var pets = _context.Pets.FirstOrDefault(x => x.UserId == userId);
+            if (pets != null)
             {
-                _context.Users.Remove(user);
-                _context.SaveChanges();
+                throw new ArgumentException("Delete os pets vinculados ao usuário");
             }
+            var user = _context.Users.FirstOrDefault(x => x.UserId == userId);
+            Console.WriteLine(user);
+            if (user == null)
+            {
+                throw new ArgumentException("User Not Found");
+            }
+            _context.Users.Remove(user);
+            _context.SaveChanges();
         }
-        
     }
 }

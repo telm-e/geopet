@@ -21,7 +21,8 @@ namespace geo_pet.Repository
         Age = (DateTime.Now.Year - x.Birth.Year),
         Size = x.Size,
         Breed = x.Breed,
-        Hash = x.Hash
+        Hash = x.Hash,
+        UserId = x.UserId
       });
       return pets;
     }
@@ -37,7 +38,8 @@ namespace geo_pet.Repository
         Age = (DateTime.Now.Year - x.Birth.Year),
         Size = x.Size,
         Breed = x.Breed,
-        Hash = x.Hash
+        Hash = x.Hash,
+        UserId = x.UserId
       }).First();
       return petById;
     }
@@ -50,6 +52,7 @@ namespace geo_pet.Repository
         Size = pet.Size,
         Breed = pet.Breed,
         Hash = pet.Hash,
+        UserId = pet.UserId
       };
       _context.Pets.Add(newPet);
       _context.SaveChanges();
@@ -77,14 +80,13 @@ namespace geo_pet.Repository
 
     public void DeletePet(int petId)
     {
-      var pet = _context.Pets.Find(petId);
-      if (pet != null)
+      var pet = _context.Pets.FirstOrDefault(x => x.PetId == petId);
+      if (pet == null)
       {
-        _context.Pets.Remove(pet);
-        _context.SaveChanges();
+        throw new ArgumentException("Pet Not Found");
       }
-      throw new ArgumentException("Pet Not Found");
-
+      _context.Pets.Remove(pet);
+      _context.SaveChanges();
     }
   }
 }

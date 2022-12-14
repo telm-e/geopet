@@ -26,6 +26,18 @@ namespace geo_pet.Models
         public string Size { get; set; }
         public string Breed { get; set; }
         public string Hash { get; set; }
+        public int UserId { get; set; }
+
+    }
+
+        public class PetDTOUser
+    {
+        public int PetId { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Size { get; set; }
+        public string Breed { get; set; }
+        public string Hash { get; set; }
 
     }
 
@@ -36,5 +48,6 @@ namespace geo_pet.Models
         public string Size { get; set; }
         public string Breed { get; set; }
         public string Hash { get; set; }
+        public int UserId { get; set; }
     }
 }

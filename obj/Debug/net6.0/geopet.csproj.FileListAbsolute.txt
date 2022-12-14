@@ -196,3 +196,8 @@
 /home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/RestClient.Net.dll
 /home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/RestClient.Net.Abstractions.dll
 /home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/bin/Debug/net6.0/Urls.dll
+/home/alvaro/projetos/geopet/bin/Debug/net6.0/package-lock.json
+/home/alvaro/projetos/geopet/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/alvaro/projetos/geopet/bin/Debug/net6.0/RestClient.Net.dll
+/home/alvaro/projetos/geopet/bin/Debug/net6.0/RestClient.Net.Abstractions.dll
+/home/alvaro/projetos/geopet/bin/Debug/net6.0/Urls.dll

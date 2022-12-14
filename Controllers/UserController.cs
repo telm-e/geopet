@@ -43,7 +43,7 @@ namespace geo_pet.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] User user)
+        public async Task<IActionResult> Add([FromBody] UserDTOAdd user)
         {
             var cep = user.Cep;
             var validateCep = await _cepService.GetCep(cep);

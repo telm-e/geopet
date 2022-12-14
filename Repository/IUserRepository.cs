@@ -6,8 +6,8 @@ namespace geo_pet.Repository
     {
         IEnumerable<UserDTO> GetUsers();
         UserDTO GetUserById(int userId);
-        UserDTO AddUser(User user);
-        UserDTO UpdateUser(User user, int userId);
+        UserDTOUpdate AddUser(UserDTOAdd user);
+        UserDTOUpdate UpdateUser(User user, int userId);
         void DeleteUser(int userId);
     }
 }
