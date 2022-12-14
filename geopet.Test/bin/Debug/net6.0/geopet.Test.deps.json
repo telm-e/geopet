@@ -44,6 +44,7 @@
           "Moq": "4.17.2",
           "XunitXml.TestLogger": "3.0.70",
           "coverlet.collector": "3.1.2",
+          "coverlet.msbuild": "3.2.0",
           "geopet": "1.0.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3",
@@ -367,6 +368,7 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "coverlet.msbuild/3.2.0": {},
       "FluentAssertions/6.5.1": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.7.0"
@@ -4268,6 +4270,13 @@
       "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+    },
+    "coverlet.msbuild/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lu/eJJpqJb4qy3BGPtDD/LI5RSOwXYYyRErTyaG0OTP69llzVK3FEe74hBQx0JtLUTLEVBfERV4uGYcE1Br2sg==",
+      "path": "coverlet.msbuild/3.2.0",
+      "hashPath": "coverlet.msbuild.3.2.0.nupkg.sha512"
     },
     "FluentAssertions/6.5.1": {
       "type": "package",

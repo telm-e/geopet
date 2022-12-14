@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EaLB9f18rTJkiLq2bzRhBfrzjPhWQhGLKyPiYW63dBwkLU2pNEIDolT7IjXDe9kP79s5tlmljNuHywVD09W8hw==",
+  "dgSpecHash": "BAOo8eihYoTr1/Hu2Hbaeis/r6iyNW3QDynr4rKrCrdP0/lQ2LkYVpSssuG3VhPRAroH+/TRauDa7Bw5jrX0eg==",
   "success": true,
   "projectFilePath": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet.Test/geopet.Test.csproj",
   "expectedPackageFiles": [
     "/home/jessica/.nuget/packages/castle.core/4.4.1/castle.core.4.4.1.nupkg.sha512",
     "/home/jessica/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/home/jessica/.nuget/packages/coverlet.msbuild/3.2.0/coverlet.msbuild.3.2.0.nupkg.sha512",
     "/home/jessica/.nuget/packages/fluentassertions/6.5.1/fluentassertions.6.5.1.nupkg.sha512",
     "/home/jessica/.nuget/packages/fluentassertions.aspnetcore.mvc/4.2.0/fluentassertions.aspnetcore.mvc.4.2.0.nupkg.sha512",
     "/home/jessica/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

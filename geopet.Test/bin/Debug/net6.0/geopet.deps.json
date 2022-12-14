@@ -16,12 +16,14 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "RestClient.Net": "5.1.0",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "System.Net.Http": "4.3.4"
+          "System.Net.Http": "4.3.4",
+          "coverlet.msbuild": "3.2.0"
         },
         "runtime": {
           "geopet.dll": {}
         }
       },
+      "coverlet.msbuild/3.2.0": {},
       "FluentAssertions/6.5.1": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.7.0"
@@ -1035,6 +1037,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.msbuild/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lu/eJJpqJb4qy3BGPtDD/LI5RSOwXYYyRErTyaG0OTP69llzVK3FEe74hBQx0JtLUTLEVBfERV4uGYcE1Br2sg==",
+      "path": "coverlet.msbuild/3.2.0",
+      "hashPath": "coverlet.msbuild.3.2.0.nupkg.sha512"
     },
     "FluentAssertions/6.5.1": {
       "type": "package",
