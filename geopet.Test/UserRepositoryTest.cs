@@ -42,4 +42,67 @@ public class UserRepositoryTest
           }
         },
       };
+
+      [Theory]
+    [MemberData(nameof(ShouldGetUsersData))]
+    public void ShouldGetUsers(GeoPetContext context, IEnumerable<UserDTO> usersExpected)
+    {
+        // Arrange
+        var repository = new UserRepository(context);
+
+        // Act
+        IEnumerable<UserDTO> users = repository.GetUsers();
+
+        // Assert
+        users.Should().BeEquivalentTo(usersExpected);
+    }
+    public readonly static TheoryData<GeoPetContext, IEnumerable<UserDTO>> ShouldGetUsersData =
+      new()
+      {
+        {
+          Helpers.GetContextInstanceForTests("ShouldGetUsers"),
+          new Collection<UserDTO>() {
+              new UserDTO() {
+                Name = "Telme",
+                Email = "falecomtelme@gmail.com",
+                Phone = "31999999999",
+                Cep = "30140903",
+                Pets = new Collection<PetDTOUser>() {
+                  new PetDTOUser() {
+                  PetId = 1,
+                  Name = "Varda",
+                  Age = 1,
+                  Size = "medium",
+                  Breed = "mixed",
+                  Hash = "78fHFDS830",
+                  },
+                }
+              },
+              new UserDTO() {
+                Name = "Gabriel",
+                Email = "gabriel@exemplo.com",
+                Phone = "31999999999",
+                Cep = "30140903",
+                Pets = new Collection<PetDTOUser>() {
+                  new PetDTOUser() {
+                  PetId = 2,
+                  Name = "Paçoca",
+                  Age = 1,
+                  Size = "medium",
+                  Breed = "mixed",
+                  Hash = "67fHFDS830",
+                  },
+                  new PetDTOUser() {
+                  PetId = 3,
+                  Name = "Favela",
+                  Age = 2,
+                  Size = "medium",
+                  Breed = "mixed",
+                  Hash = "13fHFDS830",
+                  },
+                }
+              }
+            }
+        },
+      };
 }
