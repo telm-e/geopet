@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj": {}
+    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/geopet.csproj": {}
   },
   "projects": {
-    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj": {
+    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/geopet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj",
+        "projectUniqueName": "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/geopet.csproj",
         "projectName": "geopet",
-        "projectPath": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj",
-        "packagesPath": "/home/jessica/.nuget/packages/",
-        "outputPath": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/obj/",
+        "projectPath": "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/geopet.csproj",
+        "packagesPath": "/home/telme/.nuget/packages/",
+        "outputPath": "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jessica/.nuget/NuGet/NuGet.Config"
+          "/home/telme/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -87,7 +87,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -99,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
