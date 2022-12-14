@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj": {}
+    "/home/alvaro/projetos/geopet/geopet/geopet.csproj": {}
   },
   "projects": {
-    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj": {
+    "/home/alvaro/projetos/geopet/geopet/geopet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj",
+        "projectUniqueName": "/home/alvaro/projetos/geopet/geopet/geopet.csproj",
         "projectName": "geopet",
-        "projectPath": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/geopet.csproj",
-        "packagesPath": "/home/jessica/.nuget/packages/",
-        "outputPath": "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/obj/",
+        "projectPath": "/home/alvaro/projetos/geopet/geopet/geopet.csproj",
+        "packagesPath": "/home/alvaro/.nuget/packages/",
+        "outputPath": "/home/alvaro/projetos/geopet/geopet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jessica/.nuget/NuGet/NuGet.Config"
+          "/home/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

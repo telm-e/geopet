@@ -1,6 +1,6 @@
 {
   "geopet.dll": {
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Program.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Program.cs": {
       "Program": {
         "System.Void Program::<Main>$(System.String[])": {
           "Lines": {
@@ -96,7 +96,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/services/TokenGenerator.cs": {
+    "/home/alvaro/projetos/geopet/geopet/services/TokenGenerator.cs": {
       "geo_pet.Services.TokenGenerator": {
         "System.String geo_pet.Services.TokenGenerator::Generate()": {
           "Lines": {
@@ -118,7 +118,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/services/AddressService.cs": {
+    "/home/alvaro/projetos/geopet/geopet/services/AddressService.cs": {
       "geo_pet.services.AddressService": {
         "System.Void geo_pet.services.AddressService::.ctor(System.Net.Http.HttpClient)": {
           "Lines": {
@@ -167,7 +167,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/services/CepService.cs": {
+    "/home/alvaro/projetos/geopet/geopet/services/CepService.cs": {
       "geo_pet.services.CepService": {
         "System.Void geo_pet.services.CepService::.ctor(System.Net.Http.HttpClient)": {
           "Lines": {
@@ -213,7 +213,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/services/QRCodeService.cs": {
+    "/home/alvaro/projetos/geopet/geopet/services/QRCodeService.cs": {
       "geo_pet.services.QRCodeService": {
         "geo_pet.Models.UserDTOqrcode geo_pet.services.QRCodeService::GetQRCode(System.Int32)": {
           "Lines": {
@@ -238,29 +238,29 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Repository/GeoPetContext.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Repository/GeoPetContext.cs": {
       "geo_pet.Repository.GeoPetContext": {
         "Microsoft.EntityFrameworkCore.DbSet`1<geo_pet.Models.User> geo_pet.Repository.GeoPetContext::get_Users()": {
           "Lines": {
-            "8": 8
+            "8": 17
           },
           "Branches": []
         },
         "Microsoft.EntityFrameworkCore.DbSet`1<geo_pet.Models.Pet> geo_pet.Repository.GeoPetContext::get_Pets()": {
           "Lines": {
-            "9": 6
+            "9": 20
           },
           "Branches": []
         },
         "System.Void geo_pet.Repository.GeoPetContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
           "Lines": {
-            "12": 2,
-            "13": 2,
+            "12": 5,
+            "13": 5,
             "14": 0,
             "15": 0,
             "16": 0,
             "17": 0,
-            "18": 2
+            "18": 5
           },
           "Branches": [
             {
@@ -277,7 +277,7 @@
               "EndOffset": 31,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 2
+              "Hits": 5
             }
           ]
         },
@@ -294,13 +294,13 @@
         },
         "System.Void geo_pet.Repository.GeoPetContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<geo_pet.Repository.GeoPetContext>)": {
           "Lines": {
-            "7": 6
+            "7": 15
           },
           "Branches": []
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Repository/LoginRepository.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Repository/LoginRepository.cs": {
       "geo_pet.Repository.LoginRepository": {
         "geo_pet.Models.Login geo_pet.Repository.LoginRepository::GetUserByEmail(System.String)": {
           "Lines": {
@@ -326,44 +326,44 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Repository/PetRepository.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Repository/PetRepository.cs": {
       "geo_pet.Repository.PetRepository": {
         "System.Collections.Generic.IEnumerable`1<geo_pet.Models.PetDTO> geo_pet.Repository.PetRepository::GetPets()": {
           "Lines": {
-            "15": 0,
-            "16": 0,
-            "17": 0,
-            "18": 0,
-            "19": 0,
-            "20": 0,
-            "21": 0,
-            "22": 0,
-            "23": 0,
-            "24": 0,
-            "25": 0,
-            "26": 0,
-            "27": 0,
-            "28": 0
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2
           },
           "Branches": []
         },
         "System.Object geo_pet.Repository.PetRepository::GetPetById(System.Int32)": {
           "Lines": {
-            "31": 0,
-            "32": 0,
-            "33": 0,
-            "34": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "39": 0,
-            "40": 0,
-            "41": 0,
-            "42": 0,
-            "43": 0,
-            "44": 0,
-            "45": 0
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1
           },
           "Branches": []
         },
@@ -424,14 +424,14 @@
         },
         "System.Void geo_pet.Repository.PetRepository::DeletePet(System.Int32)": {
           "Lines": {
-            "82": 0,
-            "83": 0,
-            "84": 0,
+            "82": 1,
+            "83": 1,
+            "84": 1,
             "85": 0,
             "86": 0,
-            "88": 0,
-            "89": 0,
-            "90": 0
+            "88": 1,
+            "89": 1,
+            "90": 1
           },
           "Branches": [
             {
@@ -448,22 +448,22 @@
               "EndOffset": 144,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 0
+              "Hits": 1
             }
           ]
         },
         "System.Void geo_pet.Repository.PetRepository::.ctor(geo_pet.Repository.GeoPetContext)": {
           "Lines": {
-            "8": 0,
-            "9": 0,
-            "10": 0,
-            "11": 0
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
           },
           "Branches": []
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Repository/UserRepository.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Repository/UserRepository.cs": {
       "geo_pet.Repository.UserRepository": {
         "System.Collections.Generic.IEnumerable`1<geo_pet.Models.UserDTO> geo_pet.Repository.UserRepository::GetUsers()": {
           "Lines": {
@@ -642,7 +642,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Models/Login.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Models/Login.cs": {
       "geo_pet.Models.Login": {
         "System.String geo_pet.Models.Login::get_Email()": {
           "Lines": {
@@ -672,47 +672,47 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Models/Pet.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Models/Pet.cs": {
       "geo_pet.Models.Pet": {
         "System.Int32 geo_pet.Models.Pet::get_PetId()": {
           "Lines": {
-            "10": 6
+            "10": 15
           },
           "Branches": []
         },
         "System.String geo_pet.Models.Pet::get_Name()": {
           "Lines": {
-            "11": 6
+            "11": 15
           },
           "Branches": []
         },
         "System.DateTime geo_pet.Models.Pet::get_Birth()": {
           "Lines": {
-            "12": 6
+            "12": 15
           },
           "Branches": []
         },
         "System.String geo_pet.Models.Pet::get_Size()": {
           "Lines": {
-            "13": 6
+            "13": 15
           },
           "Branches": []
         },
         "System.String geo_pet.Models.Pet::get_Breed()": {
           "Lines": {
-            "14": 6
+            "14": 15
           },
           "Branches": []
         },
         "System.String geo_pet.Models.Pet::get_Hash()": {
           "Lines": {
-            "15": 6
+            "15": 15
           },
           "Branches": []
         },
         "System.Int32 geo_pet.Models.Pet::get_UserId()": {
           "Lines": {
-            "16": 6
+            "16": 15
           },
           "Branches": []
         },
@@ -726,43 +726,43 @@
       "geo_pet.Models.PetDTO": {
         "System.Int32 geo_pet.Models.PetDTO::get_PetId()": {
           "Lines": {
-            "23": 0
+            "23": 30
           },
           "Branches": []
         },
         "System.String geo_pet.Models.PetDTO::get_Name()": {
           "Lines": {
-            "24": 0
+            "24": 30
           },
           "Branches": []
         },
         "System.Int32 geo_pet.Models.PetDTO::get_Age()": {
           "Lines": {
-            "25": 0
+            "25": 30
           },
           "Branches": []
         },
         "System.String geo_pet.Models.PetDTO::get_Size()": {
           "Lines": {
-            "26": 0
+            "26": 30
           },
           "Branches": []
         },
         "System.String geo_pet.Models.PetDTO::get_Breed()": {
           "Lines": {
-            "27": 0
+            "27": 30
           },
           "Branches": []
         },
         "System.String geo_pet.Models.PetDTO::get_Hash()": {
           "Lines": {
-            "28": 0
+            "28": 30
           },
           "Branches": []
         },
         "System.Int32 geo_pet.Models.PetDTO::get_UserId()": {
           "Lines": {
-            "29": 0
+            "29": 30
           },
           "Branches": []
         }
@@ -844,47 +844,47 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Models/User.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Models/User.cs": {
       "geo_pet.Models.User": {
         "System.Int32 geo_pet.Models.User::get_UserId()": {
           "Lines": {
-            "11": 4
+            "11": 10
           },
           "Branches": []
         },
         "System.String geo_pet.Models.User::get_Name()": {
           "Lines": {
-            "12": 4
+            "12": 10
           },
           "Branches": []
         },
         "System.String geo_pet.Models.User::get_Email()": {
           "Lines": {
-            "13": 4
+            "13": 10
           },
           "Branches": []
         },
         "System.String geo_pet.Models.User::get_Phone()": {
           "Lines": {
-            "14": 4
+            "14": 10
           },
           "Branches": []
         },
         "System.String geo_pet.Models.User::get_Cep()": {
           "Lines": {
-            "15": 4
+            "15": 10
           },
           "Branches": []
         },
         "System.String geo_pet.Models.User::get_Password()": {
           "Lines": {
-            "16": 4
+            "16": 10
           },
           "Branches": []
         },
         "System.Collections.Generic.ICollection`1<geo_pet.Models.Pet> geo_pet.Models.User::get_Pets()": {
           "Lines": {
-            "18": 4
+            "18": 10
           },
           "Branches": []
         }
@@ -994,7 +994,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Controllers/LoginController.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Controllers/LoginController.cs": {
       "geo_pet.Controllers.LoginController": {
         "Microsoft.AspNetCore.Mvc.ActionResult`1<geo_pet.Models.LoginDTO> geo_pet.Controllers.LoginController::Authenticate(geo_pet.Models.Login)": {
           "Lines": {
@@ -1063,7 +1063,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Controllers/PetController.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Controllers/PetController.cs": {
       "geo_pet.Controllers.PetController": {
         "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::GetAll()": {
           "Lines": {
@@ -1184,7 +1184,7 @@
         }
       }
     },
-    "/home/telme/Documentos/trybe/aceleracao/projetos/geopet/geopet/geopet/Controllers/UserController.cs": {
+    "/home/alvaro/projetos/geopet/geopet/Controllers/UserController.cs": {
       "geo_pet.Controllers.UserController": {
         "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::GetUsers()": {
           "Lines": {
