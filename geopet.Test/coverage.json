@@ -1,0 +1,1276 @@
+{
+  "geopet.dll": {
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "10": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "89": 0,
+            "91": 0
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 357,
+              "EndOffset": 359,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 357,
+              "EndOffset": 377,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/services/TokenGenerator.cs": {
+      "geo_pet.Services.TokenGenerator": {
+        "System.String geo_pet.Services.TokenGenerator::Generate()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/services/AddressService.cs": {
+      "geo_pet.services.AddressService": {
+        "System.Void geo_pet.services.AddressService::.ctor(System.Net.Http.HttpClient)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.services.AddressService/<GetAddress>d__3": {
+        "System.Void geo_pet.services.AddressService/<GetAddress>d__3::MoveNext()": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 0,
+            "28": 0,
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 313,
+              "EndOffset": 315,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 313,
+              "EndOffset": 323,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/services/CepService.cs": {
+      "geo_pet.services.CepService": {
+        "System.Void geo_pet.services.CepService::.ctor(System.Net.Http.HttpClient)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.services.CepService/<GetCep>d__3": {
+        "System.Void geo_pet.services.CepService/<GetCep>d__3::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 190,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/services/QRCodeService.cs": {
+      "geo_pet.services.QRCodeService": {
+        "geo_pet.Models.UserDTOqrcode geo_pet.services.QRCodeService::GetQRCode(System.Int32)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.services.QRCodeService::.ctor()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Repository/GeoPetContext.cs": {
+      "geo_pet.Repository.GeoPetContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<geo_pet.Models.User> geo_pet.Repository.GeoPetContext::get_Users()": {
+          "Lines": {
+            "8": 17
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<geo_pet.Models.Pet> geo_pet.Repository.GeoPetContext::get_Pets()": {
+          "Lines": {
+            "9": 20
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.Repository.GeoPetContext::OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "12": 5,
+            "13": 5,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 5
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 12,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void geo_pet.Repository.GeoPetContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.Repository.GeoPetContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<geo_pet.Repository.GeoPetContext>)": {
+          "Lines": {
+            "7": 15
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Repository/LoginRepository.cs": {
+      "geo_pet.Repository.LoginRepository": {
+        "geo_pet.Models.Login geo_pet.Repository.LoginRepository::GetUserByEmail(System.String)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.Repository.LoginRepository::.ctor(geo_pet.Repository.GeoPetContext)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Repository/PetRepository.cs": {
+      "geo_pet.Repository.PetRepository": {
+        "System.Collections.Generic.IEnumerable`1<geo_pet.Models.PetDTO> geo_pet.Repository.PetRepository::GetPets()": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2
+          },
+          "Branches": []
+        },
+        "System.Object geo_pet.Repository.PetRepository::GetPetById(System.Int32)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1
+          },
+          "Branches": []
+        },
+        "System.Object geo_pet.Repository.PetRepository::AddPet(geo_pet.Models.PetInsert)": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Object geo_pet.Repository.PetRepository::UpdatedPet(geo_pet.Models.PetInsert,System.Int32)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 39,
+              "EndOffset": 131,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void geo_pet.Repository.PetRepository::DeletePet(System.Int32)": {
+          "Lines": {
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 0,
+            "86": 0,
+            "88": 1,
+            "89": 1,
+            "90": 1
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 130,
+              "EndOffset": 132,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 130,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void geo_pet.Repository.PetRepository::.ctor(geo_pet.Repository.GeoPetContext)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Repository/UserRepository.cs": {
+      "geo_pet.Repository.UserRepository": {
+        "System.Collections.Generic.IEnumerable`1<geo_pet.Models.UserDTO> geo_pet.Repository.UserRepository::GetUsers()": {
+          "Lines": {
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        },
+        "geo_pet.Models.UserDTO geo_pet.Repository.UserRepository::GetUserById(System.Int32)": {
+          "Lines": {
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        },
+        "geo_pet.Models.UserDTOUpdate geo_pet.Repository.UserRepository::AddUser(geo_pet.Models.UserDTOAdd)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        },
+        "geo_pet.Models.UserDTOUpdate geo_pet.Repository.UserRepository::UpdateUser(geo_pet.Models.User,System.Int32)": {
+          "Lines": {
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 46,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void geo_pet.Repository.UserRepository::DeleteUser(System.Int32)": {
+          "Lines": {
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0
+          },
+          "Branches": [
+            {
+              "Line": 102,
+              "Offset": 132,
+              "EndOffset": 134,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 132,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 271,
+              "EndOffset": 273,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 271,
+              "EndOffset": 285,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void geo_pet.Repository.UserRepository::.ctor(geo_pet.Repository.GeoPetContext)": {
+          "Lines": {
+            "9": 2,
+            "10": 2,
+            "11": 2,
+            "12": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Models/Login.cs": {
+      "geo_pet.Models.Login": {
+        "System.String geo_pet.Models.Login::get_Email()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.Login::get_Password()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.LoginDTO": {
+        "geo_pet.Models.Login geo_pet.Models.LoginDTO::get_User()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.LoginDTO::get_Token()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Models/Pet.cs": {
+      "geo_pet.Models.Pet": {
+        "System.Int32 geo_pet.Models.Pet::get_PetId()": {
+          "Lines": {
+            "10": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.Pet::get_Name()": {
+          "Lines": {
+            "11": 15
+          },
+          "Branches": []
+        },
+        "System.DateTime geo_pet.Models.Pet::get_Birth()": {
+          "Lines": {
+            "12": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.Pet::get_Size()": {
+          "Lines": {
+            "13": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.Pet::get_Breed()": {
+          "Lines": {
+            "14": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.Pet::get_Hash()": {
+          "Lines": {
+            "15": 15
+          },
+          "Branches": []
+        },
+        "System.Int32 geo_pet.Models.Pet::get_UserId()": {
+          "Lines": {
+            "16": 15
+          },
+          "Branches": []
+        },
+        "geo_pet.Models.User geo_pet.Models.Pet::get_User()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.PetDTO": {
+        "System.Int32 geo_pet.Models.PetDTO::get_PetId()": {
+          "Lines": {
+            "23": 30
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTO::get_Name()": {
+          "Lines": {
+            "24": 30
+          },
+          "Branches": []
+        },
+        "System.Int32 geo_pet.Models.PetDTO::get_Age()": {
+          "Lines": {
+            "25": 30
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTO::get_Size()": {
+          "Lines": {
+            "26": 30
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTO::get_Breed()": {
+          "Lines": {
+            "27": 30
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTO::get_Hash()": {
+          "Lines": {
+            "28": 30
+          },
+          "Branches": []
+        },
+        "System.Int32 geo_pet.Models.PetDTO::get_UserId()": {
+          "Lines": {
+            "29": 30
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.PetDTOUser": {
+        "System.Int32 geo_pet.Models.PetDTOUser::get_PetId()": {
+          "Lines": {
+            "35": 16
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTOUser::get_Name()": {
+          "Lines": {
+            "36": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 geo_pet.Models.PetDTOUser::get_Age()": {
+          "Lines": {
+            "37": 16
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTOUser::get_Size()": {
+          "Lines": {
+            "38": 16
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTOUser::get_Breed()": {
+          "Lines": {
+            "39": 16
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetDTOUser::get_Hash()": {
+          "Lines": {
+            "40": 16
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.PetInsert": {
+        "System.String geo_pet.Models.PetInsert::get_Name()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime geo_pet.Models.PetInsert::get_Birth()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetInsert::get_Size()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetInsert::get_Breed()": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.PetInsert::get_Hash()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 geo_pet.Models.PetInsert::get_UserId()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Models/User.cs": {
+      "geo_pet.Models.User": {
+        "System.Int32 geo_pet.Models.User::get_UserId()": {
+          "Lines": {
+            "11": 10
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.User::get_Name()": {
+          "Lines": {
+            "12": 10
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.User::get_Email()": {
+          "Lines": {
+            "13": 10
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.User::get_Phone()": {
+          "Lines": {
+            "14": 10
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.User::get_Cep()": {
+          "Lines": {
+            "15": 10
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.User::get_Password()": {
+          "Lines": {
+            "16": 10
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<geo_pet.Models.Pet> geo_pet.Models.User::get_Pets()": {
+          "Lines": {
+            "18": 10
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.UserDTO": {
+        "System.String geo_pet.Models.UserDTO::get_Name()": {
+          "Lines": {
+            "23": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTO::get_Email()": {
+          "Lines": {
+            "24": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTO::get_Phone()": {
+          "Lines": {
+            "25": 15
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTO::get_Cep()": {
+          "Lines": {
+            "26": 15
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<geo_pet.Models.PetDTOUser> geo_pet.Models.UserDTO::get_Pets()": {
+          "Lines": {
+            "27": 21
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.UserDTOUpdate": {
+        "System.String geo_pet.Models.UserDTOUpdate::get_Name()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOUpdate::get_Email()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOUpdate::get_Phone()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOUpdate::get_Cep()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.UserDTOAdd": {
+        "System.String geo_pet.Models.UserDTOAdd::get_Name()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOAdd::get_Email()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOAdd::get_Phone()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOAdd::get_Cep()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOAdd::get_Password()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Models.UserDTOqrcode": {
+        "System.Int32 geo_pet.Models.UserDTOqrcode::get_UserId()": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.String geo_pet.Models.UserDTOqrcode::get_Src()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Controllers/LoginController.cs": {
+      "geo_pet.Controllers.LoginController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult`1<geo_pet.Models.LoginDTO> geo_pet.Controllers.LoginController::Authenticate(geo_pet.Models.Login)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 43,
+              "EndOffset": 65,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 89,
+              "EndOffset": 111,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void geo_pet.Controllers.LoginController::.ctor(geo_pet.Repository.ILoginRepository)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Controllers/PetController.cs": {
+      "geo_pet.Controllers.PetController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::GetAll()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::GetPetById(System.Int32)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::AddPet(geo_pet.Models.PetInsert)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::Update(geo_pet.Models.PetInsert,System.Int32)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 21,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.PetController::DeletePet(System.Int32)": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.Controllers.PetController::.ctor(geo_pet.Repository.IPetRepository,geo_pet.services.interfaces.IAddressService)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Controllers.PetController/<GetAddress>d__8": {
+        "System.Void geo_pet.Controllers.PetController/<GetAddress>d__8::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 168,
+              "EndOffset": 170,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 168,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/home/jessica/jessicasantos/projetoFinalAcc/OFinal/src/geopet/Controllers/UserController.cs": {
+      "geo_pet.Controllers.UserController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::GetUsers()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::GetUserById(System.Int32)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::GetQRCode(System.Int32)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::Update(geo_pet.Models.User,System.Int32)": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult geo_pet.Controllers.UserController::Delete(System.Int32)": {
+          "Lines": {
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Void geo_pet.Controllers.UserController::.ctor(geo_pet.Repository.IUserRepository,geo_pet.services.interfaces.ICepService,geo_pet.services.interfaces.IQRCodeService)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "geo_pet.Controllers.UserController/<Add>d__7": {
+        "System.Void geo_pet.Controllers.UserController/<Add>d__7::MoveNext()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 193,
+              "EndOffset": 215,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
